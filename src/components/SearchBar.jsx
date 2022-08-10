@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch} from 'react-redux'
 
 // actions
-import { fetchFoundWheaterByCity } from '../redux/slices/wheater'
+import { fetchAddWeatherByCity } from '../redux/slices/wheater'
 
 export default function SearchBar() {
   const [input, setInput] = useState('')
@@ -14,7 +14,7 @@ export default function SearchBar() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    dispatch(fetchFoundWheaterByCity(input))
+    dispatch(fetchAddWeatherByCity(input))
   }
 
   return (

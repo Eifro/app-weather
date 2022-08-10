@@ -1,11 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
 
 // reducers
-import wheaterReducer from '../slices/wheater'
+import weatherReducer from '../slices/wheater'
 
 const store = configureStore({
   reducer: {
-    wheater: wheaterReducer
+    weather: weatherReducer
   }
 })
 

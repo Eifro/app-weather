@@ -1,15 +1,16 @@
-import { useSelector } from 'react-redux'
-import Card from './Card'
+import { useSelector } from "react-redux";
+import Card from "./Card";
 
 export default function Cards() {
-  const wheaters = useSelector(state => state.wheater.list)
+  const weathers = useSelector((state) => state.weather.list);
+
   return (
-    <div className='wheater-cards'>
+    <div className="weather-cards">
       {
-        wheaters.map((wheater) => (
-          <Card wheater={wheater} key={wheater.id} />
+        weathers.map((weather) => (
+          <Card weather={weather} key={weather.id} />
         ))
       }
     </div>
-  )
+  );
 }
