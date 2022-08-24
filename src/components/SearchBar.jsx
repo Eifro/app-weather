@@ -18,10 +18,10 @@ export default function SearchBar() {
   }
 
   return (
-    <div className="search-bar">
-      <form onSubmit={handleSubmit}>
-        <input type="text" className="input-search" onChange={handleChange} />
-        <button type="submit" className="btn-submit">Agregar</button>
+    <div className="search-bar bg-sky-600 py-5">
+      <form onSubmit={handleSubmit} className="container mx-auto flex gap-5">
+        <input type="text" className="input-search border-2 border-white rounded focus:outline-none px-3 py-1 text-zinc-700 text-lg hover:bg-neutral-200 focus:bg-neutral-200" placeholder='Buscar país..' onChange={handleChange} />
+        <button type="submit" className="btn-submit border-2 border-zinc-200 text-white px-5 py-1 rounded-lg hover:bg-white hover:text-zinc-600 hover:border-zinc-600 uppercase font-bold active:bg-neutral-200">Agregar</button>
       </form>
     </div>
   )
