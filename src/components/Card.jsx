@@ -1,5 +1,4 @@
 export default function Card({ weather }) {
-  console.log(weather);
   const {
     name,
     main: { humidity, temp, temp_min, temp_max },
@@ -8,6 +7,7 @@ export default function Card({ weather }) {
   } = weather;
   const img = weather.weather[0].icon;
   const description = weather.weather[0].description
+  
   return (
     <div className="wheater-card bg-transparent cursor-pointer group perspective">
       <div className="h-52 relative preserve-3d group-hover:my-rotate-y-180 duration-1000">
