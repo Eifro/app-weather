@@ -1,4 +1,6 @@
 import { useSelector } from "react-redux";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleUp } from '@fortawesome/free-solid-svg-icons'
 import Card from "./Card";
 
 export default function Cards() {
@@ -11,6 +13,7 @@ export default function Cards() {
           <Card weather={weather} key={weather.id} />
         ))
       }
+      <div className="w-14 h-14 rounded-full fixed bottom-10 right-12 cursor-pointer hover:scale-110 bg-slate-800 flex items-center justify-center text-3xl"><FontAwesomeIcon icon={faCircleUp} /></div>
     </div>
   );
 }
