@@ -11,10 +11,10 @@ export default function Card({ weather }) {
   return (
     <div className="wheater-card bg-transparent cursor-pointer group perspective">
       <div className="h-52 relative preserve-3d group-hover:my-rotate-y-180 duration-1000">
-        <div className="flex h-full w-full border border-slate-300 rounded-br-xl rounded-tr-xl rounded-tl-md shadow-md shadow-neutral-400 absolute backface-hidden">
+        <div className="flex md:flex-row h-full w-full border border-slate-300 rounded-br-xl rounded-tr-xl rounded-tl-md shadow-md shadow-neutral-400 absolute backface-hidden">
           <img
             src={"http://openweathermap.org/img/wn/" + img + "@2x.png"}
-            className="w-40 contrast-150 brightness-110"
+            className="w-36 sm:w-28 md:w-40 lg:w-32 xl:w-40 contrast-150 brightness-110"
             alt=""
           />
           <div className="wheater-details flex flex-col justify-center items-center gap-4 flex-1 bg-white/10 rounded-br-xl rounded-tr-xl">

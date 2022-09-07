@@ -25,7 +25,7 @@ export default function Cards() {
   }
   
   return (
-    <div className="weather-cards container mx-auto grid grid-cols-3 gap-10 text-white py-8">
+    <div className="weather-cards container mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-10 text-white py-8 px-2 sm:px-0">
       {weathers.map((weather) => (
         <Card weather={weather} key={weather.id} />
       ))}
