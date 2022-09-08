@@ -14,6 +14,9 @@ const MyClass = plugin(function ({ addUtilities }) {
     },
     ".backface-hidden": {
       backfaceVisibility: "hidden"
+    },
+    ".text-shadow-xl": {
+      textShadow: "0 10px 30px white"
     }
   });
 });
