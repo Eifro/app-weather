@@ -20,7 +20,7 @@ export default function Cards() {
   /* mientras se hace scroll */
   window.onscroll = () => {
     const scroll = document.documentElement.scrollTop
-    if (scroll > 120) document.querySelector('.btn-scrollup').classList.remove('hidden')
+    if (scroll > 100) document.querySelector('.btn-scrollup').classList.remove('hidden')
     else document.querySelector('.btn-scrollup').classList.add('hidden')
   }
   
