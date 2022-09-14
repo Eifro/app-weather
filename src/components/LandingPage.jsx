@@ -4,6 +4,7 @@ import weather from "../assets/weather.svg";
 /* fontawesome */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleRight } from "@fortawesome/free-solid-svg-icons";
+import Social from './Social';
 
 function LandingPage() {
 
@@ -17,6 +18,7 @@ function LandingPage() {
         <Link to='/home' className="btn-started bg-indigo-600 px-8 py-3 text-white font-bold text-xl rounded hover:bg-indigo-400 transition duration-500">
           Empezar <FontAwesomeIcon icon={faCircleRight} />
         </Link>
+        <Social />
       </div>
     </div>
   );

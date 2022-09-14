@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 /* imp font awesome */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowTurnDown, faMugHot } from "@fortawesome/free-solid-svg-icons";
+import Social from "./Social";
 
 export default function About() {
   return (
@@ -31,6 +32,7 @@ export default function About() {
             cursada en el bootcamp <span className="text-yellow-500 font-bold text-xl">Henry</span>.
           </p>
           <p className="font-bold tracking-wider text-2xl text-shadow-xl mt-10 text-center">Made with Miguel Espiritu <FontAwesomeIcon icon={faMugHot} className="text-yellow-500" /></p>
+          <Social />
         </div>
         <Link to='/home' className="btn-back-home border-2 px-3 py-2 rounded text-lg font-bold uppercase tracking-wide hover:bg-white hover:text-zinc-600 transition duration-600">Back <FontAwesomeIcon icon={faArrowTurnDown} className="rotate-90" /> </Link>
       </div>
