@@ -1,6 +1,5 @@
-import { useEffect } from 'react'
-import { useState } from 'react'
-import { useDispatch} from 'react-redux'
+import { useEffect, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { useLocation } from 'react-router-dom'
 
 // actions
@@ -10,6 +9,8 @@ export default function SearchBar() {
   const [input, setInput] = useState('')
   const dispatch = useDispatch()
   const location = useLocation()
+  const weathers = useSelector(state => state.weather.list)
+  console.log(weathers);
 
   const handleChange = (e) => {
     setInput(e.target.value)
@@ -17,7 +18,9 @@ export default function SearchBar() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    dispatch(fetchAddWeatherByCity(input))
+    const regex = /[a-z]+$/i // regex solo texto
+    if (regex.test(input)) dispatch(fetchAddWeatherByCity(input))
+    else alert('Ingrese correctamente el país..!')
     setInput('')
   }
 
