@@ -1,8 +1,10 @@
-<h1 style="text-align: center;">APP WEATHER - CLIMATOONS</h1>
+<h1 style="text-align: center; width: 100%;">APP WEATHER - CLIMATOONS</h1>
 
 <img src="https://raw.githubusercontent.com/Eifro/app-weather/c4dea3b203a98adf5c787318fdb7ae6b3185f1ee/src/assets/weather.svg" style="width: 100%; height: 200px" />
 
 ## Description &#128221;
+
+This project is a space where you can obtain information from a specific country. Looking for the country in the input of the page.
 
 In the project directory, you can run:
 
