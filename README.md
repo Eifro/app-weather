@@ -6,6 +6,21 @@
 
 This project is a space where you can obtain information from a specific country. Looking for the country in the input of the page.
 
+## Technologies &#128218;
+
+- React JS
+- Redux Toolkit
+- Tailwind CSS
+
+## Components &#9889;
+
+- Landing Page
+- Home Page
+- About Page
+- Search Bar
+
+## ¿How to use? &#128270;
+
 In the project directory, you can run:
 
 ### `npm start`
