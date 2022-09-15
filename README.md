@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+<h1 style="text-align: center;">APP WEATHER - CLIMATOONS</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://raw.githubusercontent.com/Eifro/app-weather/c4dea3b203a98adf5c787318fdb7ae6b3185f1ee/src/assets/weather.svg" style="width: 100%; height: 200px" />
 
-## Available Scripts
+## Description &#128221;
 
 In the project directory, you can run:
 
