@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# APP WEATHER - CLIMATOONS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://raw.githubusercontent.com/Eifro/app-weather/c4dea3b203a98adf5c787318fdb7ae6b3185f1ee/src/assets/weather.svg" />
 
 ## Available Scripts
 
