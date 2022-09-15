@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 <h1 style="text-align: center;">APP WEATHER - CLIMATOONS</h1>
 
 <img src="https://raw.githubusercontent.com/Eifro/app-weather/c4dea3b203a98adf5c787318fdb7ae6b3185f1ee/src/assets/weather.svg" style="width: 100%; height: 200px" />
+=======
+# APP WEATHER - CLIMATOONS
+
+<img src="https://raw.githubusercontent.com/Eifro/app-weather/c4dea3b203a98adf5c787318fdb7ae6b3185f1ee/src/assets/weather.svg" width="200" style="text-align: center;" />
+>>>>>>> 43001c93ae0d0d7699ec1ac7075098a0073e7902
 
 ## Description &#128221;
 
