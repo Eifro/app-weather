@@ -1,6 +1,6 @@
 # APP WEATHER - CLIMATOONS
 
-<img src="https://raw.githubusercontent.com/Eifro/app-weather/c4dea3b203a98adf5c787318fdb7ae6b3185f1ee/src/assets/weather.svg" />
+<img src="https://raw.githubusercontent.com/Eifro/app-weather/c4dea3b203a98adf5c787318fdb7ae6b3185f1ee/src/assets/weather.svg" width="200" />
 
 ## Available Scripts
 
