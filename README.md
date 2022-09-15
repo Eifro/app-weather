@@ -18,8 +18,12 @@ This project is a space where you can obtain information from a specific country
 - Home Page
 - About Page
 - Search Bar
+- Links
 
 ## ¿How to use? &#128270;
+
+1. In the Landing Page press button **'Get Started'**.
+2. After, in the **text box** type the country that you want obtain information.
 
 In the project directory, you can run:
 
