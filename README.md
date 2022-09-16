@@ -1,4 +1,6 @@
-<h1 style="border: 1px solid red; width: 100%; text-align:center;">APP WEATHER - CLIMATOONS</h1>
+<div style="width: 100%; border: 1px solid red;">
+    <h1 style="text-align: center;">APP WEATHER - CLIMATOON</h1>
+</div>
 
 <img src="https://raw.githubusercontent.com/Eifro/app-weather/c4dea3b203a98adf5c787318fdb7ae6b3185f1ee/src/assets/weather.svg" style="width: 100%; height: 200px" />
 
